@@ -3,23 +3,20 @@
 <title>QUÍMICA AO ALCANCE DE TODOS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="w3.css">
+<link rel="stylesheet" type="text/css" href="w3-theme-black.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
 <body>
 
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <div class="w3-center">
-  <h4>
-Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</h4>
-  <h1 class="w3-xxxlarge w3-animate-bottom">QUÍMICA AO ALCANCE DE TODOS</h1>
-    <div class="w3-padding-32">
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">sobre o projeto</button>
-    </div>
-    <div class="w3-padding-32">
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id02').style.display='block'" style="font-weight:900;">autores</button>
-    </div>
+  <!-- <h5>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte <br>
+      Campus Natal - Zona Norte </h5>-->
+  <img class="w3-image" src="ifrnnznlogo.png">
+  <h1 class="w3-xxlarge w3-animate-bottom">QUÍMICA AO ALCANCE DE TODOS </h1>
+  <h1 class="w3-xlarge w3-animate-bottom">UMA ABORDAGEM EXPERIMENTAL</h1>
+    
   </div>
 </header>
 
@@ -51,9 +48,11 @@ Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</h
         <h4>Autores</h4>
       </header>
       <div class="w3-padding">
-        <p align = "justify"></p>
+        <p align = "justify">Amanda Myris Araújo de Souza</p>
         
-        <p align = "justify"></p>
+        <p align = "justify">Bruno Valniery Gomes de Sousa</p>
+
+        <p align = "justify">Roberto Rodrigues Cunha Lima</p>
       </div>
       <footer class="w3-container w3-theme-l1">
         <p>&#169 IFRN 2017</p>
@@ -66,32 +65,85 @@ Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</h
   <div class="w3-card-2 w3-container" style="min-height:460px">
   <h3>Química I</h3><br>
   <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Built-in responsiveness</p>
-  <p>Mobile first fluid grid</p>
-  <p>Fits any screen sizes</p>
-  <p>PC Tablet and Mobile</p>
+  <div class="w3-padding-32">
+      <button class="w3-button w3-medium w3-menutheme" onclick="document.getElementById('id03').style.display='block'" style="font-weight:900;">ACESSAR AULAS</button>
+    </div>
   </div>
 </div>
+
+<div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id03').style.display='none'"
+        class="w3-button w3-display-topright">x</span>
+        <h4>Química I</h4>
+      </header>
+      <div class="w3-padding">
+        <p align = "justify"><a href="../quimica1/aula1.html" class="w3-button w3-menutheme">Aula 01 – Noções de segurança e principais vidrarias e utensílios no Laboratório de Química</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 02 – Medidas de massa e de volume: cálculo da densidade</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 03 – Fenômenos físicos e químicos</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 04 – Separação de misturas</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 05 – Ensaio da chama</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 06 – Reatividade de metais</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 07 – Solubilidade, Tensão superficial e Condutividade elétrica</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 08 – Identificando ácidos e bases (repolho, açaí, etc)</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 09 – Investigando a presença de Vitamina C</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 10 – Reações inorgânicas (extintor, água de cal, precipitação, produção de H2 e CO2)</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 11 – Lei de Lavoisier</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 12 – Dispersões</a></p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>&#169 IFRN 2017</p>
+      </footer>
+    </div>
+</div>
+
 
 <div class="w3-third">
   <div class="w3-card-2 w3-container" style="min-height:460px">
   <h3>Química II</h3><br>
-  <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Standard CSS only</p>
-  <p>Easy to learn</p>
-  <p>No need for jQuery</p>
-  <p>No JavaScript library</p>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <div class="w3-padding-32">
+      <button class="w3-button w3-medium w3-menutheme" onclick="document.getElementById('id04').style.display='block'" style="font-weight:900;">ACESSAR AULAS</button>
+    </div>
   </div>
+</div>
+
+<div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id04').style.display='none'"
+        class="w3-button w3-display-topright">x</span>
+        <h3>Química I</h3>
+      </header>
+      <div class="w3-padding">
+        <p align = "justify"><a href="aula1.html" class="w3-button w3-menutheme">Aula 01 – Preparação e diluição de soluções</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 02 – Cinética</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 03 – Ebulioscopia e Crioscopia</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 04 – Deslocamento de Equilíbrio Químico</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 05 – Determinando o pH de uma solução</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 06 – Lei de Hess</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 07 – Eletrofloculação</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 08 – Cromatografia (usar CaCO3 - livro de cromatografia - verde)</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 09 – Teor de etanol na gasolina comercial</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 10 – (Q. 1000 exp. 16 – pg 26)</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 11 – Fabricação de sabão ecológico</a></p>
+        <p align = "justify"><a href="" class="w3-button w3-menutheme">Aula 12 – Fabricação de detergentes</a></p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>&#169 IFRN 2017</p>
+      </footer>
+    </div>
 </div>
 
 <div class="w3-third">
   <div class="w3-card-2 w3-container" style="min-height:460px">
-  <h3>Utensílios do Laboratório</h3><br>
-  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <p>Paper like design</p>
-  <p>Bold colors and shadows</p>
-  <p>Equal across platforms</p>
-  <p>Equal across devices</p>
+  <h3>O laboratório</h3><br>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <div class="w3-padding-32">
+      <button class="w3-button w3-medium w3-menutheme" onclick="document.getElementById('id05').style.display='block'" style="font-weight:900;">VIDRARIAS</button>
+      <button class="w3-button w3-medium w3-menutheme" onclick="document.getElementById('id06').style.display='block'" style="font-weight:900;">ESTRUTURA</button>
+    </div>
   </div>
 </div>
 </div>
@@ -99,18 +151,16 @@ Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</h
 <div class="w3-container">
 <hr>
 
-<!-- Footer 
+<!-- Footer -->
 <footer class="w3-container w3-theme-dark w3-padding-16">
-  <h3>Footer</h3>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
-    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
-  <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
+  <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">sobre o projeto</button>
+    </div>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id02').style.display='block'" style="font-weight:900;">autores</button>
+    </div>
 </footer>
--->
+
 
 <!-- Script for Tabs, Accordions, Progress bars and slideshows -->
 <script>
