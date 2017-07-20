@@ -11,10 +11,11 @@
 
 .w3-theme-light {color:#000 !important; background-color:#f0f0f0 !important}
 .w3-theme-dark {color:#fff !important; background-color:#000000 !important}
+.w3-theme-footer {color:#fff !important; background-color:#f4f4f4 !important}
 .w3-theme-action {color:#fff !important; background-color:#000000 !important}
 
-.w3-theme {color:#ffffff !important; background-color: #2f9e41 !important;}
-.w3-menutheme {color:#000 !important; background-color: #fff !important}
+.w3-theme {color:#ffffff !important; background-color: green !important;}  /* #2f9e41 cor oficial da identidade do ifrn*/
+.w3-menutheme {color:#000 !important; background-color: #f4f4f4 !important}
 .w3-text-theme {color:#000000 !important}
 .w3-border-theme {border-color:#000000 !important}
 
