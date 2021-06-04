@@ -9,4 +9,4 @@ de Habilidades e Competências preconizado pelo novo Exame Nacional do Ensino M�
 com apresentação de experimentos gravados em vídeo, abordagem contextualizada, transdisciplinar 
 e ênfase na questão ambiental.
 
-<img src="/tree/master/assets/images/qat.jpeg">
+<img src="/assets/images/qat.jpeg">
