@@ -8,3 +8,5 @@ ensino médio de acordo com os atuais Parâmetros Curriculares Nacionais (PCNs) 
 de Habilidades e Competências preconizado pelo novo Exame Nacional do Ensino Médio (ENEM), 
 com apresentação de experimentos gravados em vídeo, abordagem contextualizada, transdisciplinar 
 e ênfase na questão ambiental.
+
+<img src="/qat/tree/master/assets/images/qat.jpeg">
